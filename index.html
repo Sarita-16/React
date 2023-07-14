@@ -3,7 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>React Practice</title>
   </head>
-  <body></body>
+  <body>
+    <div id="root" class="navContainer">
+      <h1>Hey! What's Up 😉</h1>
+    </div>
+    <div class="bodyContainer">
+      <h1>React 😁</h1>
+    </div>
+    <div class="footerContainer"></div>
+  </body>
+
+  <!-- Core Library of React -->
+  <script
+    crossorigin
+    src="https://unpkg.com/react@18/umd/react.development.js"
+  ></script>
+
+  <!-- we can access ReactDOM. react-dom means WEB VERSION OF REACT -->
+  <script
+    crossorigin
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  ></script>
+
+  <!-- Start REACT Programming -->
+  <script>
+    // React.creatElement consist with "tag" "object" "what we want to put inside tag"
+    const heading = React.createElement("h1", {}, "This is React 🪶");
+
+    // console.log(heading); ---> It's a Object
+
+    const rt = ReactDOM.createRoot(document.getElementById("root"));
+
+    // Passing a react element inside the root
+
+    rt.render(heading);
+  </script>
+
+  <!-- 
+  <script>
+    /*         This is how we create h1 tag inside JS         */
+
+    const heading = document.createElement("h2");
+    heading.innerHTML = "Hello! This is how we print tag inside JavaScript 👻";
+
+    // This is how we put the heading inside root
+    const rt = document.getElementById("root");
+    rt.appendChild(heading);
+  </script>
+  -->
 </html>
