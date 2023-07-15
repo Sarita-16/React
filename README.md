@@ -13,6 +13,7 @@ React : React is a JS liabrary for building Dynamic & Interactic user interface.
 1. Emmet
 2. CDN(Content Delivery Network) link : The mission of a CDN is to reduce latency
 3. crossorigin
+4. async vs defer
 
 \\ DOM : Document Object Model
 
