@@ -38,8 +38,11 @@ React : React is a JS liabrary for building Dynamic & Interactic user interface.
    To know what exact verson do we need to use on production.
    It will tell you what version of library we are using.
 
-\\ package-lock.json is a very important file, it locks the version.
+\\ package-lock.json is a very important file, it locks the version. Never keep it on git ignore.
 
-10. how do we use npm in my project?
+11. node_modules : whenever we install something it gets installed in node_modules. It is database of npm packages.
+    \\ never put node_modules in git repositories
+
+12. how do we use npm in my project?
     \\ npm init
     \\ npm install (to install our package) -D(Dev Dependency, also written as '--save-dev'. Dependency means all the packages that project need & percel is one of such dev dependency) parcel (which we want to install)
