@@ -1,0 +1,18 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Learning React from Akshay Saini",
+  "main": "index.html",
+  "scripts": {
+    "test": "just"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Sarita-16/React.git)"
+  },
+  "author": "Sarita Khatun Mollah",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
