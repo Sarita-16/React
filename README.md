@@ -29,20 +29,29 @@ React : React is a JS liabrary for building Dynamic & Interactic user interface.
 
 6. what is npm?
    \\npm used to manage our packages.
+
 7. Why do we use npm?
    \\ We want to manage all our packages that is why we use npm. A react app is a huge app which doesn't run on react itself, there are many more whice we need & those things come from different packages, which packages are present by using npm
 
-8. Caret & tilde in package json
+8. Caret & tilde in package json?
 
 9. What is package-lock.json?
    To know what exact verson do we need to use on production.
    It will tell you what version of library we are using.
+   \\ package-lock.json is a very important file, it locks the version. Never keep it on git ignore.
 
-\\ package-lock.json is a very important file, it locks the version. Never keep it on git ignore.
+10. node_modules : whenever we install something it gets installed in node_modules. It is database of npm packages.
+    \\ never put node_modules in git repositories cause package-lock.json has sufficient information to recreate node_modules.
 
-11. node_modules : whenever we install something it gets installed in node_modules. It is database of npm packages.
-    \\ never put node_modules in git repositories
+11. Never touch & edit node_modules & package-lock.json
 
 12. how do we use npm in my project?
     \\ npm init
     \\ npm install (to install our package) -D(Dev Dependency, also written as '--save-dev'. Dependency means all the packages that project need & percel is one of such dev dependency) parcel (which we want to install)
+
+13. how do we add React to our porject ?
+    \\ npm install react
+    \\ npm i react-dom (i = install)
+
+14. to ignite our app we use :
+    \\ npx (npx = execute using npm) parcel index.html (entry point to our app) [We have to execute parcel with the entry point of the app]

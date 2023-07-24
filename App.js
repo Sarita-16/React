@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // React.creatElement consist with "tag" "object" "what we want to put inside tag"
 const heading = React.createElement("h1", {}, "This is React 🪶");
 
