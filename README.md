@@ -55,3 +55,18 @@ React : React is a JS liabrary for building Dynamic & Interactic user interface.
 
 14. to ignite our app we use :
     \\ npx (npx = execute using npm) parcel index.html (entry point to our app) [We have to execute parcel with the entry point of the app]
+
+\\ npx parcel index.html (this just creates a faster development version of our project & serves it on the server)
+
+\\ When percel in production build : npx parcel build index.html
+
+15. Hot Module Reloading (HMR)
+16. File Watcher Algorithm
+
+\\ We should put .parcel-cache in git
+
+\\ Any thing which is auto generated (generates on server) will be put into the GIT
+
+\\ Transitive Dependence
+
+17. BrowserList: It ia a thing that make our code compatable for lot of browsers.

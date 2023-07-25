@@ -1,3 +1,24 @@
+/* 
+Parcel Do ----->
+Hot Module Replacement (HMR)  
+File Watcher Algorithm 
+Bundling
+Minify
+Cleaning our Code
+Dev and Production Build
+Super Fast build algorithm
+Image optimization
+Caching while Development
+Compression
+Compatable with Older version of browser
+HTTPS on dev
+Port Numbers
+Consistent Hashing Algorithm (to do bundiling)
+Zero Config
+
+
+*/
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 
@@ -16,7 +37,7 @@ rt.render(heading);
 const heading1 = React.createElement(
   "h1",
   { id: "container" },
-  "This is h1 tag from bodyContainer 😋"
+  "This is h1 tag from bodyContainer 😋 for Parcel"
 );
 
 // children 2
