@@ -46,7 +46,7 @@ React : React is a JS liabrary for building Dynamic & Interactic user interface.
 11. Never touch & edit node_modules & package-lock.json
 
 12. how do we use npm in my project?
-    \\ npm init
+    \\ npm init (package.json create)
     \\ npm install (to install our package) -D(Dev Dependency, also written as '--save-dev'. Dependency means all the packages that project need & percel is one of such dev dependency) parcel (which we want to install)
 
 13. how do we add React to our porject ?
@@ -70,3 +70,19 @@ React : React is a JS liabrary for building Dynamic & Interactic user interface.
 \\ Transitive Dependence
 
 17. BrowserList: It ia a thing that make our code compatable for lot of browsers.
+
+18. Pollyfill
+
+19. For run a React program
+    \\ npm run start || npm start
+20. For Building a project
+    \\ npm run build
+
+21. Package that help us Remove 'console.log' --->
+    https://babeljs.io/docs/babel-plugin-transform-remove-console/
+
+    https://www.npmjs.com/package/babel-plugin-transform-remove-console
+
+22. Now we need to configure it.
+
+----------------------------42---------------------------

@@ -15,6 +15,7 @@ HTTPS on dev
 Port Numbers
 Consistent Hashing Algorithm (to do bundiling)
 Zero Config
+Tree Shaking : Removing unwanted elements
 
 
 */
